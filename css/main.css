@@ -1,4 +1,115 @@
-div {
-  background-color: #80801f; }
-  div h1 {
-    color: black; }
+body {
+  color: black;
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 100%;
+  line-height: 1.3; }
+
+header {
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  z-index: 1111;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.navbarM {
+  background-color: coral;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  margin: auto; }
+
+.nav-list {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  margin-bottom: 0px; }
+  .nav-list li {
+    color: white;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 110%;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+    padding: 0px 10px; }
+    .nav-list li a {
+      text-decoration: none;
+      color: white; }
+      .nav-list li a:hover {
+        color: black; }
+
+.rightNav {
+  text-align: right;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-bottom: 0px;
+  height: 40px; }
+  .rightNav li {
+    padding: 26px 10px; }
+
+.buttonNav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #fff; }
+
+.parallas {
+  margin: 0 auto; }
+
+.main {
+  margin: 0 auto; }
+
+.texto {
+  width: 100%;
+  height: 100%;
+  display: inline;
+  overflow: hidden; }
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  max-width: 100%;
+  position: relative; }
+
+.textoimg {
+  left: 10%;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 80%; }
+
+.titular {
+  color: #fff;
+  font-size: 400%;
+  font-weight: 700;
+  font-size: calc(1.525rem + 3.3vw); }
+
+.subtitular {
+  color: #fff;
+  font-size: 200%;
+  font-weight: 300; }
+
+.img-uno {
+  background-image: url("https://thumbs2.imgbox.com/4f/6e/jdGS9ZEl_t.png"); }
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  background-color: coral; }
+  footer p {
+    font-size: 120%;
+    text-align: center;
+    color: white; }

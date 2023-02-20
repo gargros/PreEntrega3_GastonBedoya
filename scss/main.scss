@@ -1,6 +1,4 @@
-div {
-    background-color: rgb(128, 128, 31);
-    h1 {
-        color: black;
-    }
-}
+@import "./elements/body.scss";
+@import "./navbar.scss";
+@import "./parallax.scss";
+@import "./footer.scss";

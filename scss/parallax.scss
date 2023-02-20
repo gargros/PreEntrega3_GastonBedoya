@@ -1,0 +1,44 @@
+$color_1: #fff;
+
+.parallas {
+	margin: 0 auto;
+}
+.main {
+	margin: 0 auto;
+}
+.texto {
+	width: 100%;
+	height: 100%;
+	display: inline;
+	overflow: hidden;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	max-width: 100%;
+	position: relative;
+}
+.textoimg {
+	left: 10%;
+	position: absolute;
+	text-align: center;
+	top: 30%;
+	width: 80%;
+}
+.titular {
+	color: $color_1;
+	font-size: 400%;
+	font-weight: 700;
+	font-size: calc(1.525rem + 3.3vw);
+}
+.subtitular {
+	color: $color_1;
+	font-size: 200%;
+	font-weight: 300;
+}
+.img-uno {
+	background-image: url("https://thumbs2.imgbox.com/4f/6e/jdGS9ZEl_t.png");
+}
