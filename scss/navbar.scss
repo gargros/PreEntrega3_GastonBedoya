@@ -1,0 +1,68 @@
+$color_1: rgb(255, 255, 255);
+$color_2: white;
+$color_3: black;
+$font-family_1: 'Sofia Sans', sans-serif;
+$background-color_1: coral;
+$background-color_2: #fff;
+
+header {
+	position: fixed;
+	margin: auto;
+	width: 100%;
+	z-index: 1111;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.navbarM {
+	background-color: $background-color_1;
+	display: flex;
+	position: sticky;
+	align-items: center;
+	justify-content: center;
+	top: 0px;
+	cursor: pointer;
+	width: 100%;
+	height: 60px;
+	margin: auto;
+}
+.nav-list {
+	width: 100%;
+	text-align: left;
+	display: flex;
+	margin-bottom: 0px;
+	li {
+		color: $color_1;
+		font-family: $font-family_1;
+		font-size: 110%;
+		font-weight: 700;
+		text-decoration: none;
+		text-align: left;
+		list-style: none;
+		padding: 0px 10px;
+		a {
+			text-decoration: none;
+			color: $color_2;
+			&:hover {
+				color: $color_3;
+			}
+		}
+	}
+}
+.rightNav {
+	text-align: right;
+	display: flex;
+	list-style: none;
+	align-items: center;
+	margin-bottom: 0px;
+	height: 40px;
+	li {
+		padding: 26px 10px;
+	}
+}
+.buttonNav {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	background-color: $background-color_2;
+}

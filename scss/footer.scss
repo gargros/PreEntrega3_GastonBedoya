@@ -1,0 +1,12 @@
+$color_1: white;
+$background-color_1: coral;
+
+footer {
+	padding: 20px;
+	background-color: $background-color_1;
+	p {
+		font-size: 120%;
+		text-align: center;
+		color: $color_1;
+	}
+}
