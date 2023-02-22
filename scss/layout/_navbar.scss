@@ -1,9 +1,4 @@
-$color_1: rgb(255, 255, 255);
-$color_2: white;
-$color_3: black;
-$font-family_1: 'Sofia Sans', sans-serif;
-$background-color_1: coral;
-$background-color_2: #fff;
+@use "../settings/variables";
 
 header {
 	position: fixed;
@@ -15,7 +10,7 @@ header {
 	justify-content: space-around;
 }
 .navbarM {
-	background-color: $background-color_1;
+	background-color: $primary-color;
 	display: flex;
 	position: sticky;
 	align-items: center;
@@ -32,9 +27,8 @@ header {
 	display: flex;
 	margin-bottom: 0px;
 	li {
-		color: $color_1;
-		font-family: $font-family_1;
-		font-size: 110%;
+		color: $secondary-color;
+		font-size: $fs-menu;
 		font-weight: 700;
 		text-decoration: none;
 		text-align: left;
@@ -42,9 +36,9 @@ header {
 		padding: 0px 10px;
 		a {
 			text-decoration: none;
-			color: $color_2;
+			color: $secondary-color;
 			&:hover {
-				color: $color_3;
+				color: $negro;
 			}
 		}
 	}
@@ -64,5 +58,5 @@ header {
 	display: flex;
 	align-items: center;
 	margin-bottom: 10px;
-	background-color: $background-color_2;
+	background-color: $secondary-color;
 }

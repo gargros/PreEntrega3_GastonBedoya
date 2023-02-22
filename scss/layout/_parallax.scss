@@ -1,4 +1,4 @@
-$color_1: #fff;
+@use "../settings/variables";
 
 .parallas {
 	margin: 0 auto;
@@ -29,13 +29,12 @@ $color_1: #fff;
 	width: 80%;
 }
 .titular {
-	color: $color_1;
-	font-size: 400%;
+	color: $secondary-color;
 	font-weight: 700;
 	font-size: calc(1.525rem + 3.3vw);
 }
 .subtitular {
-	color: $color_1;
+	color: $secondary-color;
 	font-size: 200%;
 	font-weight: 300;
 }

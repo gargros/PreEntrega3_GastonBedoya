@@ -1,0 +1,14 @@
+@use "../settings/variables";
+
+footer {
+	width: 100%;
+    bottom: 0;
+	padding: 20px;
+	background-color: $primary-color;
+	p {
+		font-size: $fs-title-s;
+		font-weight: 700;
+		text-align: center;
+		color: $secondary-color;
+	}
+}

@@ -1,6 +1,11 @@
 @import "./elements/body.scss";
-@import "./navbar.scss";
-@import "./parallax.scss";
+@import "./settings/color";
+@import "./settings/tipografia";
+@import "./elements/headlines";
+@import "./layout/navbar";
+@import "./layout/parallax";
 @import "./generic/row";
-@import "./hover.scss";
-@import "./footer.scss";
+@import "./generic/colpadding";
+@import "./elements/hover";
+@import "./elements/img-head";
+@import "./layout/footer";

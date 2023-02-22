@@ -1,5 +1,4 @@
-$color_1: #fff;
-$background-color_1: rgba(255, 127, 80, 0.686);
+@use "../settings/variables";
 
 #effect-hover {
 	.img {
@@ -29,7 +28,7 @@ $background-color_1: rgba(255, 127, 80, 0.686);
 		margin: auto;
 		width: 100%;
 		height: auto;
-		background-color: $background-color_1;
+		background-color: $primary-color;
 		opacity: 0;
 		transition: opacity 2s;
 	}
@@ -39,9 +38,9 @@ $background-color_1: rgba(255, 127, 80, 0.686);
 		top: 0;
 		left: 0;
 		right: 0;
-		font-size: 30px;
+		font-size: $fs-title-m;
 		font-weight: 700;
-		color: $color_1;
+		color: $secondary-color;
 		transition-duration: 2s;
 		margin: 0px;
 	}
@@ -51,8 +50,8 @@ $background-color_1: rgba(255, 127, 80, 0.686);
 		bottom: 0;
 		left: 0;
 		right: 0;
-		font-size: 20px;
-		color: $color_1;
+		font-size: $fs-lead;
+		color: $secondary-color;
 		transition-duration: 2s;
 		margin: 0px;
 	}
