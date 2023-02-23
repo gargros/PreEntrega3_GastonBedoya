@@ -1,0 +1,8 @@
+@use "../settings/variables";
+
+.btn-principal { 
+	font-size: $fs-btn;
+	font-weight: 700;
+	background-color: coral;
+	border-width: 0px; 
+}
