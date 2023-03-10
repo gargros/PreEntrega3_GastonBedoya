@@ -28,7 +28,7 @@
 		margin: auto;
 		width: 100%;
 		height: auto;
-		background-color: $primary-color;
+		background-color: $accesory-color;
 		opacity: 0;
 		transition: opacity 2s;
 	}
@@ -40,7 +40,7 @@
 		right: 0;
 		font-size: $fs-title-m;
 		font-weight: 700;
-		color: $secondary-color;
+		color: $text-color;
 		transition-duration: 2s;
 		margin: 0px;
 	}
@@ -51,7 +51,7 @@
 		left: 0;
 		right: 0;
 		font-size: $fs-lead;
-		color: $secondary-color;
+		color: $text-color;
 		transition-duration: 2s;
 		margin: 0px;
 	}
